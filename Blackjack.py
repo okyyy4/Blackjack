@@ -203,7 +203,6 @@ while game_on:
         if dealer.value_of_hand > 21:
             print("Dealer busts, you win!")
             player_balance += on_the_line
-            print(player_balance)
             show_hands(player, dealer)
         elif dealer.value_of_hand > player.value_of_hand:
             print("Dealer wins, you lose!")
